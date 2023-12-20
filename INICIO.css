@@ -1,0 +1,93 @@
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('MiFuente.lato2') format('lato2'),
+       url('MiFuente.lato') format('lato');
+}
+
+body {
+  font-family: 'MiFuente', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Inicio.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  background-color: black;
+  padding: 15px 0px;
+  align-items: right;
+  font-size: 25px;
+  height: 25px;
+  width: 100%;
+  color: white;
+  letter-spacing: 0px;
+  word-spacing: 30px;
+  padding-left: 900px;
+  
+}
+
+.texto-central {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em; 
+  color: white; 
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 8em;
+  
+}
+
+.subtitulo{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em; 
+  color: white; 
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+.boton{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em; 
+  color: #045CF4; 
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+button {
+    
+  background-color: #555555;
+  border: none;
+  color: black;
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #045CF4;
+}
+

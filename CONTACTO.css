@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'MiFuente';
+  src: url('MiFuente.lato2') format('lato2'),
+       url('MiFuente.lato') format('lato');
+}
+
+body {
+  font-family: 'MiFuente', sans-serif;
+}
+
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+  padding: 15px 0px;
+  align-items: right;
+  font-size: 25px;
+  height: 25px;
+  width: 100%;
+  color: white;
+  letter-spacing: 0px;
+  word-spacing: 30px;
+  padding-left: 900px;
+  
+}
+
+.contacto {
+  max-width: 500px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+ margin-right: 10px; 
+}
+
+
+.contacto {
+  max-width: 800px; 
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #045CF4;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  font-size: 1em; 
+}
